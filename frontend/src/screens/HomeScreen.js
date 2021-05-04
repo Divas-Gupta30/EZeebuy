@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+
 import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { Row, Col } from 'react-bootstrap'
@@ -30,9 +30,9 @@ const HomeScreen = ({ match }) => {
             <h1>Latest Products</h1>
             {loading ? (<Loader />
             ) : error ? (
-                <Message variant='danger'>{error}</Message>
+                <Message variant='dagger'>{error}</Message>
             ) : (
-                <>
+                </>
                     <Row>
                         {products.map(product => (
                             <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
@@ -40,7 +40,7 @@ const HomeScreen = ({ match }) => {
                             </Col>
                         ))}
                     </Row>
-                    <Paginate pages={pages} page={page} keyword={keyword ? keyword : ''} />
+                    <Paginate pages={pages} page={page} keyword={keyword ? keyword : '' />
                 </>
             )}
 
