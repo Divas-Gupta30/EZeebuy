@@ -2,7 +2,14 @@
 
 > eCommerce platform built with the MERN stack & Redux.
 
+## HomeScreen
 ![image](https://user-images.githubusercontent.com/60813213/116999941-fb6f2280-acfd-11eb-8639-697fa0c9df1d.png)
+
+## User Profile
+![image](https://user-images.githubusercontent.com/60813213/117000167-4852f900-acfe-11eb-9c29-a6f1d4a0db01.png)
+
+## Admin Product Screen
+![image](https://user-images.githubusercontent.com/60813213/117000354-92d47580-acfe-11eb-8ea8-4bde994e04c4.png)
 
 ## Features
 
